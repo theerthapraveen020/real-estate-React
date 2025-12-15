@@ -2,7 +2,7 @@ import React from 'react'
 import { assets, testimonialsData } from '../assets/assets'
 import { motion } from 'framer-motion'
 
-const Testimonails = () => {
+const  Testimonials = () => {
   return (
     <motion.div 
      initial={{opacity:0,x:100}}
@@ -31,4 +31,4 @@ const Testimonails = () => {
   )
 }
 
-export default Testimonails
+export default  Testimonials
